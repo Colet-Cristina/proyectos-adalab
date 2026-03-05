@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
@@ -8,22 +8,22 @@
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    <header class="header">
-      <h1 class="title">Paletas Naves</h1>
+    <header class="header js_header">
+      <h1 class="title js_title">Paletas Naves</h1>
     </header>
-    <main class="main">
-      <h2>Listado naves</h2>
-      <h3>
-        <li>
-          <ul class="">
-            <li style="background-color: FFBF2E"></li>
-            <li style="background-color: E85E0C"></li>
-            <li style="background-color: FF0000"></li>
-            <li style="background-color: C70CE8"></li>
-            <li style="background-color: 330DFF"></li>
-          </ul>
-        </li>
-      </h3>
+
+    <main class="main js_main">
+      <h2>Paletas de Naves Espaciales</h2>
+
+      <label for="search">Busca tu nave:</label>
+      <input
+        type="text"
+        id="search"
+        class="input-search js_inputSearch"
+        placeholder="Nombre..."
+      />
+
+      <ul class="palettes-list js_palettesList"></ul>
     </main>
 
     <script src="./js/main.js"></script>
