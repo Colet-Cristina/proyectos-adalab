@@ -26,11 +26,10 @@ El repositorio está organizado por módulos, siguiendo el programa del bootcamp
 
 ---
 
-## 💡 Sobre este repo
+### 💜
 
-Este repositorio es una muestra de mi evolución técnica.
-Cada módulo contiene ejercicios prácticos donde aplico los conceptos teóricos aprendidos.
-
-> "La programación no es solo código; es un lienzo donde la lógica se encuentra con la imaginación. Y recuerda: cada error es una oportunidad para entender mejor cómo funciona el código."
+> La programación no es solo código; es un lienzo donde la lógica se encuentra con la imaginación.
+>
+> Cada error es una oportunidad para entender mejor cómo funciona todo.
 
 ---
