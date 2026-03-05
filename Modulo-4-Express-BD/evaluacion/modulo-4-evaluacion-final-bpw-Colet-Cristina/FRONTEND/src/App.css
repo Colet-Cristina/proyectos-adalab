@@ -1,0 +1,114 @@
+:root {
+  --primary: #2ecc71;
+  --secondary: #34495e;
+  --bg: #fdfdfd;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.search-bar {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+}
+
+/* El recuadro de añadir */
+.add-bird-box {
+  background: #ffffff;
+  border: 1px solid #eee;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  margin-bottom: 50px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.form-grid textarea {
+  grid-column: span 2;
+  height: 60px;
+}
+
+input,
+select,
+textarea {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.btn-submit {
+  width: 100%;
+  margin-top: 15px;
+  padding: 12px;
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Secciones de Categoría */
+.category-section {
+  margin-bottom: 40px;
+}
+
+.category-title {
+  color: var(--secondary);
+  border-bottom: 2px solid var(--primary);
+  display: inline-block;
+  padding-right: 50px;
+  margin-bottom: 20px;
+}
+
+.birds-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.bird-card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #f0f0f0;
+}
+
+.bird-card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+
+.bird-info {
+  padding: 15px;
+  text-align: center;
+}
+
+.btn-delete {
+  background: #ff7675;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}

@@ -1,0 +1,61 @@
+@use '../core/variables' as vars;
+
+
+.design {
+  font-family: vars.$fontMain;
+}
+
+.hidden {
+  display: none;
+}
+
+/*-- ---- ---- ---- ----  panel desing & arrow ---- ---- ---- ---- --*/
+.panel-design {
+  display: flex;
+  align-items: center;
+  margin: 0rem 1rem;
+  border-bottom: solid 1.5px vars.$colorFramework;
+}
+
+.pallette {
+  width: 2rem;
+}
+
+.title-desing {
+  font-family: "Uncial Antiqua", system-ui;
+  color: vars.$colorFont;
+}
+
+.arrow_design {
+  width: 2em;
+  height: 2em;
+  margin-left: 1em;
+  margin-top: -0.1em;
+  rotate: 90deg;
+}
+
+.rotate_arrow {
+  rotate: 0deg;
+}
+
+/*-- ---- ---- ---- ----  FIN  panel desing & arrow ---- ---- ---- ---- --*/
+.open-panel {
+  font-family: "Eagle Lake", serif;
+  margin: 1.5rem 1.5rem;
+  color: vars.$colorFramework;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.background-option {
+  margin: 0.5rem 0.5rem 0rem 12rem;
+
+}
+
+.background-images {
+  border: solid #4B1F05 0.8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.8);
+}
+
+@media (min-width: 768px) {}

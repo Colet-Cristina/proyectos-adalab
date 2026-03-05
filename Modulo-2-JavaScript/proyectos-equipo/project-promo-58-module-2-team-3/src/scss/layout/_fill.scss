@@ -1,0 +1,100 @@
+@use '../core/variables' as vars;
+
+*:root {
+  background-color: vars.$colorBg;
+}
+
+/* colores del logo fondo: #EDC78A
+   colores marco: #4B1F05 */
+
+
+.uncial-antiqua-regular {
+  font-family: "Uncial Antiqua", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fill {
+  color: vars.$colorFont;
+}
+
+.eagle-lake-regular {
+  font-family: "Eagle Lake", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fill_form {
+  font-family: "Eagle Lake", serif;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 100px 1fr;
+
+}
+
+.fill_form_title {
+  font-family: "Uncial Antiqua", system-ui;
+  display: flex;
+  place-content: baseline;
+  margin: 0rem 1rem;
+  border-bottom: solid 1.5px vars.$colorFramework;
+  padding-top: 0.5rem;
+}
+
+.arrow_fill {
+  width: 2em;
+  height: 2em;
+  margin-left: 1em;
+  margin-top: -0.1em;
+  rotate: 90deg;
+}
+
+.rotate_arrow {
+  rotate: 0deg;
+}
+
+.feather,
+.arrow {
+  width: 2rem;
+}
+
+.content {
+  padding-bottom: 1rem;
+  color: vars.$colorFont;
+}
+
+.input_photo {
+  display: ruby-text;
+  margin-top: 1em;
+  padding: 0.5rem;
+  border: solid 0.5px vars.$colorFramework;
+  box-shadow: 0px 3px 8px vars.$colorFramework;
+  border-radius: 20px;
+  border-style: dashed;
+
+}
+
+.input_name,
+.input_race,
+.input_gender,
+.input_class,
+.input_age,
+.input_affiliation {
+  color: rgb(127, 126, 126);
+  padding: 0.5rem;
+  border: solid 0.5px vars.$colorFramework;
+  box-shadow: 0px 3px 8px vars.$colorFramework;
+}
+
+
+.photo_thumbnail {
+  width: 70px;
+  height: 70px;
+  border: solid vars.$colorFramework;
+  display: block;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0px 3px 8px vars.$colorFramework;
+}

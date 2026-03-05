@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Módulo 2: Ejercicio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+
+
+<body>
+  <main class="main">
+    <h1 class="title">Juego piedra, papel y tijera</h1>
+    <h3 class="instruction">Introduce aquí tu jugada:</h3>
+    <form class="form">
+      <select class="select-option js_movePlayerSelect" name="juega">
+        <option value="" selected disabled>Selecciona tu jugada</option>
+        <!-- "selected disabled"frase inicial del recuadro, no deja marcarla-->
+        <option value="piedra">Piedra</option>
+        <option value="papel">Papel</option>
+        <option value="tijeras">Tijeras</option>
+      </select>
+      <button class="play-Btn js_playBtn">Jugar</button>
+    </form>
+    <h2 class="result js_resultBox">¡Vamos a jugar!</h2>
+    <section class="score">
+      <p class="player js_playerResult">Jugador:</p>
+      <p class="computer js_computerResult">Computadora:</p>
+    </section>
+  </main>
+  <script type="text/javascript" src="./js/main.js"></script>
+</body>
+
+</html>

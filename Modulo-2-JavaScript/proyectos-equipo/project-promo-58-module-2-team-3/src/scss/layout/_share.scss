@@ -1,0 +1,85 @@
+@use '../core/variables' as vars;
+
+.share {
+  display: flex;
+  border-bottom: solid 0.1rem vars.$colorFramework;
+  height: 1.5rem;
+  margin-inline: 1rem;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+}
+
+.share_h3 {
+  font-family: vars.$fontTitle;
+  font-size: 1.17em;
+  color: vars.$colorFont;
+  width: 2em;
+  height: 2em;
+}
+
+.share_img {
+  width: 2em;
+  height: 2em;
+  margin-top: -0.5em;
+}
+
+.arrow_share {
+  width: 2em;
+  height: 2em;
+  margin-left: 5em;
+  margin-top: -0.1em;
+  rotate: 90deg;
+}
+
+.rotate_arrow {
+  rotate: 0deg;
+}
+
+.share_button_create {
+  display: flex;
+  justify-content: center;
+  border-bottom: solid 0.1em vars.$colorFramework;
+  padding: 0.5em;
+  margin-inline: 1rem;
+  margin-bottom: 1em;
+}
+
+.cardCreateButton {
+  font-family: vars.$fontMain;
+  color: white;
+  background-color: rgb(114, 13, 34);
+  border-radius: 6px;
+  padding: 0.2em 0.2em;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+}
+
+.cardCreateButton:hover {
+  background-color: #b3002d;
+}
+
+.share_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+.share_card_h3 {
+  font-family: vars.$fontTitle;
+  font-size: 1em;
+  color: vars.$colorFont;
+  margin-bottom: 0.5em;
+}
+
+.shareFailBox {
+  font-family: vars.$fontMain;
+  font-size: 0.8em;
+  color: vars.$colorFont;
+  margin-bottom: 1em;
+  text-wrap: initial;
+  text-align: center;
+}
+
+@media (min-width: 768px) {}

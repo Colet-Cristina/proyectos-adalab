@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1,
+    "common": "Spain",
+    "officialName": "Kingdom of Spain",
+    "capital": "Madrid",
+    "continent": "Europe",
+    "language": "Spanish",
+    "currency": "Euro (EUR)",
+    "flag": "https://flagicons.lipis.dev/flags/4x3/es.svg"
+  },
+  {
+    "id": 2,
+    "common": "France",
+    "officialName": "French Republic",
+    "capital": "Paris",
+    "continent": "Europe",
+    "language": "French",
+    "currency": "Euro (EUR)",
+    "flag": "https://flagicons.lipis.dev/flags/4x3/fr.svg"
+  },
+  {
+    "id": 3,
+    "common": "Germany",
+    "officialName": "Federal Republic of Germany",
+    "capital": "Berlin",
+    "continent": "Europe",
+    "language": "German",
+    "currency": "Euro (EUR)",
+    "flag": "https://flagicons.lipis.dev/flags/4x3/de.svg"
+  },
+  {
+    "id": 4,
+    "common": "Russia",
+    "officialName": "Russian Federation",
+    "capital": "Moscow",
+    "continent": "Europe",
+    "language": "Russian",
+    "currency": "Russian Ruble (RUB)",
+    "flag": "https://flagicons.lipis.dev/flags/4x3/ru.svg"
+  },
+  {
+    "id": 5,
+    "common": "United Kingdom",
+    "officialName": "United Kingdom of Great Britain and Northern Ireland",
+    "capital": "London",
+    "continent": "Europe",
+    "language": "English",
+    "currency": "Pound Sterling (GBP)",
+    "flag": "https://flagicons.lipis.dev/flags/4x3/gb.svg"
+  },
+  {
+    "id": 6,
+    "common": "Kenya",
+    "officialName": "Republic of Kenya",
+    "capital": "Nairobi",
+    "continent": "Africa",
+    "language": "Swahili, English",
+    "currency": "Kenyan Shilling (KES)",
+    "flag": "https://flagicons.lipis.dev/flags/4x3/ke.svg"
+  },
+  {
+    "id": 7,
+    "common": "South Africa",
+    "officialName": "Republic of South Africa",
+    "capital": "Pretoria, Bloemfontein, Cape Town",
+    "continent": "Africa",
+    "language": "Various (11 official)",
+    "currency": "South African Rand (ZAR)",
+    "flag": "https://flagicons.lipis.dev/flags/4x3/za.svg"
+  },
+  {
+    "id": 8,
+    "common": "Nigeria",
+    "officialName": "Federal Republic of Nigeria",
+    "capital": "Abuja",
+    "continent": "Africa",
+    "language": "English",
+    "currency": "Nigerian Naira (NGN)",
+    "flag": "https://flagicons.lipis.dev/flags/4x3/ng.svg"
+  },
+  {
+    "id": 9,
+    "common": "Egypt",
+    "officialName": "Arab Republic of Egypt",
+    "capital": "Cairo",
+    "continent": "Africa",
+    "language": "Arabic",
+    "currency": "Egyptian Pound (EGP)",
+    "flag": "https://flagicons.lipis.dev/flags/4x3/eg.svg"
+  },
+  {
+    "id": 10,
+    "common": "Japan",
+    "officialName": "Japan",
+    "capital": "Tokyo",
+    "continent": "Asia",
+    "language": "Japanese",
+    "currency": "Japanese Yen (JPY)",
+    "flag": "https://flagicons.lipis.dev/flags/4x3/jp.svg"
+  },
+  {
+    "id": 11,
+    "common": "India",
+    "officialName": "Republic of India",
+    "capital": "New Delhi",
+    "continent": "Asia",
+    "language": "Hindi, English",
+    "currency": "Indian Rupee (INR)",
+    "flag": "https://flagicons.lipis.dev/flags/4x3/in.svg"
+  },
+  {
+    "id": 12,
+    "common": "China",
+    "officialName": "People's Republic of China",
+    "capital": "Beijing",
+    "continent": "Asia",
+    "language": "Standard Chinese",
+    "currency": "Yuan Renminbi (CNY)",
+    "flag": "https://flagicons.lipis.dev/flags/4x3/cn.svg"
+  },
+  {
+    "id": 13,
+    "common": "Saudi Arabia",
+    "officialName": "Kingdom of Saudi Arabia",
+    "capital": "Riyadh",
+    "continent": "Asia",
+    "language": "Arabic",
+    "currency": "Saudi Riyal (SAR)",
+    "flag": "https://flagicons.lipis.dev/flags/4x3/sa.svg"
+  },
+  {
+    "id": 14,
+    "common": "United States",
+    "officialName": "United States of America",
+    "capital": "Washington, D.C.",
+    "continent": "North America",
+    "language": "English",
+    "currency": "United States Dollar (USD)",
+    "flag": "https://flagicons.lipis.dev/flags/4x3/us.svg"
+  },
+  {
+    "id": 15,
+    "common": "Mexico",
+    "officialName": "United Mexican States",
+    "capital": "Mexico City",
+    "continent": "North America",
+    "language": "Spanish",
+    "currency": "Mexican Peso (MXN)",
+    "flag": "https://flagicons.lipis.dev/flags/4x3/mx.svg"
+  },
+  {
+    "id": 16,
+    "common": "Canada",
+    "officialName": "Canada",
+    "capital": "Ottawa",
+    "continent": "North America",
+    "language": "English, French",
+    "currency": "Canadian Dollar (CAD)",
+    "flag": "https://flagicons.lipis.dev/flags/4x3/ca.svg"
+  },
+  {
+    "id": 17,
+    "common": "Brazil",
+    "officialName": "Federative Republic of Brazil",
+    "capital": "Brasilia",
+    "continent": "South America",
+    "language": "Portuguese",
+    "currency": "Brazilian Real (BRL)",
+    "flag": "https://flagicons.lipis.dev/flags/4x3/br.svg"
+  },
+  {
+    "id": 18,
+    "common": "Argentina",
+    "officialName": "Argentine Republic",
+    "capital": "Buenos Aires",
+    "continent": "South America",
+    "language": "Spanish",
+    "currency": "Argentine Peso (ARS)",
+    "flag": "https://flagicons.lipis.dev/flags/4x3/ar.svg"
+  },
+  {
+    "id": 19,
+    "common": "Colombia",
+    "officialName": "Republic of Colombia",
+    "capital": "Bogotá",
+    "continent": "South America",
+    "language": "Spanish",
+    "currency": "Colombian Peso (COP)",
+    "flag": "https://flagicons.lipis.dev/flags/4x3/co.svg"
+  },
+  {
+    "id": 20,
+    "common": "Peru",
+    "officialName": "Republic of Peru",
+    "capital": "Lima",
+    "continent": "South America",
+    "language": "Spanish",
+    "currency": "Peruvian Sol (PEN)",
+    "flag": "https://flagicons.lipis.dev/flags/4x3/pe.svg"
+  },
+  {
+    "id": 21,
+    "common": "Chile",
+    "officialName": "Republic of Chile",
+    "capital": "Santiago",
+    "continent": "South America",
+    "language": "Spanish",
+    "currency": "Chilean Peso (CLP)",
+    "flag": "https://flagicons.lipis.dev/flags/4x3/cl.svg"
+  },
+  {
+    "id": 22,
+    "common": "Uruguay",
+    "officialName": "Oriental Republic of Uruguay",
+    "capital": "Montevideo",
+    "continent": "South America",
+    "language": "Spanish",
+    "currency": "Uruguayan Peso (UYU)",
+    "flag": "https://flagicons.lipis.dev/flags/4x3/uy.svg"
+  },
+  {
+    "id": 23,
+    "common": "Australia",
+    "officialName": "Commonwealth of Australia",
+    "capital": "Canberra",
+    "continent": "Oceania",
+    "language": "English",
+    "currency": "Australian Dollar (AUD)",
+    "flag": "https://flagicons.lipis.dev/flags/4x3/au.svg"
+  },
+  {
+    "id": 24,
+    "common": "New Zealand",
+    "officialName": "New Zealand",
+    "capital": "Wellington",
+    "continent": "Oceania",
+    "language": "English, Māori",
+    "currency": "New Zealand Dollar (NZD)",
+    "flag": "https://flagicons.lipis.dev/flags/4x3/nz.svg"
+  },
+  {
+    "id": 25,
+    "common": "Cook Islands",
+    "officialName": "Cook Islands",
+    "capital": "Avarua",
+    "continent": "Oceania",
+    "language": "English, Cook Islands Māori",
+    "currency": "New Zealand Dollar (NZD)",
+    "flag": "https://flagicons.lipis.dev/flags/4x3/ck.svg"
+  }
+]

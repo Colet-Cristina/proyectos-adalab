@@ -1,0 +1,226 @@
+/* Hace que el padding y border se incluyan dentro del ancho total del elemento*/
+* {
+  box-sizing: border-box;
+}
+
+/*Para eliminar espacios predeterminados de los navegadores */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos generales del cuerpo */
+body {
+  background-color: #452c64;
+  color: #d6bff1; /* Texto */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0px;
+}
+/* -- ------------------------------ HEADER ------------------------------ --*/
+.header {
+  background-color: #2c0e53;
+  display: flex;
+  justify-content: space-between; /* Empuja el menú al otro lado */
+  align-items: center; /* Centra verticalmente ambos elementos */
+  padding: 20px 10px; /* Espacio interno para que no pegue a los bordes */
+
+  /* Mantiene el header arriba si haces scroll */
+  position: sticky;
+  top: 0;
+}
+
+.header-logo {
+  height: 30px; /* Ajusta este número para hacerlo más pequeño aún */
+  width: auto; /* Mantiene la proporción */
+}
+
+.nav-link {
+  color: #bc93ee;
+  text-decoration: none; /* Quita el subrayado azul típico */
+}
+
+.nav-list {
+  display: flex; /* Pone los enlaces en línea */
+  gap: 20px; /* Espacio tex */
+  margin: 0;
+  padding: 0;
+  list-style: none; /* Quita los puntos negros de los li */
+}
+
+.main-content {
+  padding: 20px;
+}
+
+/* Centrar los títulos principales */
+.main-title,
+.promo-top,
+.hero-intro {
+  text-align: center;
+  margin-bottom: 20px;
+}
+/* -- ------------------------------ HERO ------------------------------ --*/
+.hero-title {
+  text-align: center;
+  margin-bottom: 10px;
+  display: block; /* Asegura que se comporte como un bloque para aplicar el margen */
+}
+
+.hero-text {
+  margin-bottom: 20px;
+  text-align: center;
+  max-width: 800px; /* Para que las líneas no sean infinitas y se lean mejor */
+  margin-left: auto; /* Centra el bloque de texto */
+  margin-right: auto;
+  line-height: 1.6; /* Mejora la lectura */
+}
+
+/* -- ------------------------------  ------------------------------ --*/
+.animals-gallery {
+  display: flex;
+  flex-wrap: wrap; /* Permite que se pongan una al lado de la otra */
+  justify-content: center; /* Las centra en el espacio disponible */
+  gap: 40px; /* Crea la separación uniforme entre tarjetas */
+  padding: 3px 3px; /* Espacio arriba y abajo de la galería */
+}
+
+.animal-card {
+  background-color: #bc93ee;
+  color: black;
+  border-radius: 15px; /* Bordes redondeados */
+  padding: 20px;
+  width: 350px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 10); /* Sombra para dar profundidad */
+}
+
+.animal-name {
+  color: #4a148c; /* El mismo morado del fondo para el nombre */
+  text-align: center;
+  border-bottom: 2px solid #4a148c;
+  padding-bottom: 10px;
+}
+
+/* Controlar el tamaño de las imágenes */
+.animal-img {
+  width: 90%; /* Obliga a la imagen a ocupar todo el ancho del recuadro */
+  border-radius: 8px; /* Redondeado en las esquinas de la foto */
+  margin: 15px auto 20px; /* Separa la imagen del título y del texto */
+  display: block;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 10); /* Sombra para dar profundidad */
+}
+
+.info-list {
+  list-style: none;
+  line-height: 1.4;
+  max-width: 100%;
+  padding-left: 20px; /* Espacio justo para los puntos */
+  padding-right: 10px;
+  margin: 0; /* Quitamos el auto para que use todo el ancho */
+}
+
+.info-list li {
+  margin-bottom: 0.5px; /* Separa cada característica de la siguiente */
+  text-align: left;
+}
+
+.info-title {
+  text-align: center; /* Centra el título */
+  color: #6a1b9a;
+
+  margin-bottom: 10px; /* Empuja la lista hacia abajo */
+}
+
+/* -- ------------------------------ FOOTER ------------------------------ --*/
+
+.footer {
+  background-color: #2c0e53;
+  color: #bc93ee;
+  padding: 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.footer-warning {
+  display: inline-block;
+  background-color: #bc93ee;
+  color: #190830;
+  padding: 5px 10px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  box-shadow: 4px 4px 0px #0b0413;
+}
+
+/* --- -----------ESTILOS PARA LA PÁGINA NOSOTRAS--------------- --- */
+
+.about-box {
+  background-color: #bc93ee; /* Color lila */
+  color: #190830; /* Texto oscuro */
+  padding: 40px;
+  border-radius: 20px;
+  max-width: 800px;
+  margin: 50px auto; /* Centra la caja */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.about-list {
+  list-style: none; /* IMPORTANTE: Esto quita los números/puntos */
+  padding: 0;
+}
+
+.about-list li {
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  text-align: center; /* Texto centrado */
+}
+
+.main-quote {
+  text-align: center;
+  font-style: italic;
+  font-size: 2rem;
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #190830;
+}
+/* --- -----------ESTILOS PARA LA PÁGINA CONTACTO--------------- --- */
+
+.contact-page .main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 75%;
+  padding: 20px;
+}
+
+/* La tarjeta mágica */
+.contact-box {
+  background-color: #bc93ee; /* Tu lila característico */
+  padding: 40px;
+  border-radius: 20px;
+  max-width: 650px;
+  text-align: center;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+}
+
+/* Estilo para la frase de Peter Pan */
+.magic-text {
+  color: #190830; /* El morado oscuro del header */
+  font-size: 1.8rem;
+  font-style: italic;
+  line-height: 1.4;
+  margin-bottom: 30px;
+  font-family: "Georgia", serif; /* Una fuente con más personalidad */
+}
+
+/* Estilo para la imagen de Peter/Hadas */
+.contact-box .img {
+  width: 100%;
+  max-width: 300px; /* Evita que la imagen sea demasiado grande */
+  height: auto;
+  border-radius: 15px;
+  margin: 0 auto;
+  display: block;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
+}
