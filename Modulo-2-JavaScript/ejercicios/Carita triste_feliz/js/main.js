@@ -1,28 +1,23 @@
-'use strict';
+"use strict";
+// Busca en HTML los elementos que necesitamos manipular
+const face = document.querySelector("#face");
+const moodSelect = document.querySelector("#mood");
+const updateBtn = document.querySelector("#update");
+const body = document.body;
 
-// SECCIÓN DE QUERY-SELECTOR
-// Éstos son los elementos que nos traemos de la página HTML y usamos en el código
+updateBtn.addEventListener("click", () => {
+  // Operador ternario Cambiar la cara según la selección
+  face.textContent = moodSelect.value === "happy" ? ":)" : ":(";
 
+  // Generar número aleatorio (0-100)
+  const randomNum = Math.floor(Math.random() * 101);
 
+  // Cambiar el fondo si es par o impar
+  if (randomNum % 2 === 0) {
+    body.style.backgroundColor = "#ffcc00";
+  } else {
+    body.style.backgroundColor = "#ff9900";
+  }
+});
 
-// SECCIÓN DE FUNCIONES
-// Estos son funciones:
-//   - con código auxiliar
-//   - con código que usaremos en los eventos
-//   - para pintar (render) en la página.
-
-
-
-// SECCIÓN DE EVENTOS
-// Estos son los eventos a los que reacciona la página
-// Los más comunes son: click (en botones, enlaces), input (en ídem) y submit (en form)
-
-
-
-// SECCIÓN DE ACCIONES AL CARGAR LA PÁGINA
-// Este código se ejecutará cuando se carga la página
-// Lo más común es:
-//   - Pedir datos al servidor
-//   - Pintar (render) elementos en la página
-
-console.log('Página y JS cargados!');
+console.log("Página y JS cargados!");

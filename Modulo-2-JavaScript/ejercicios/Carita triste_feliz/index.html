@@ -1,21 +1,24 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
   <!-- ------------ head ------------------  -->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>2.N Lección</title>
+    <title>Sonríe… o no</title>
     <link rel="stylesheet" href="./css/main.css" />
   </head>
-  <!-- ------------- Fin -----------------  -->
+  <!-- -------------  -----------------  -->
+
   <body>
-    <!-- ------------------------------  -->
-    <header class="header">
-      <h1 class="title">2.N Lección</h1>
-    </header>
-    <!-- ------------------------------  -->
-    <main class="main"></main>
-    <!-- ------------------------------  -->
+    <div id="face" class="face-display">:)</div>
+
+    <div class="controls">
+      <select id="mood" class="controls__select">
+        <option value="happy">:)</option>
+        <option value="sad">:(</option>
+      </select>
+      <button id="update" class="controls__button">Update</button>
+    </div>
     <script src="./js/main.js"></script>
   </body>
   <!-- ------------------------------  -->
