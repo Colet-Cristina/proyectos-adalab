@@ -1,0 +1,55 @@
+{
+  "cart": {
+    "items": [
+      {
+        "id": "id-1",
+        "name": "Node JS",
+        "price": 16,
+        "imageUrl": "//beta.adalab.es/ejercicios-extra/api/eshop/assets/images/node-js.jpg"
+      },
+      {
+        "id": "id-2",
+        "name": "JavaScript",
+        "price": 15,
+        "imageUrl": "//beta.adalab.es/ejercicios-extra/api/eshop/assets/images/javascript.jpg"
+      },
+      {
+        "id": "id-3",
+        "name": "React JS",
+        "price": 13,
+        "imageUrl": "//beta.adalab.es/ejercicios-extra/api/eshop/assets/images/react.jpg"
+      },
+      {
+        "id": "id-4",
+        "name": "Git",
+        "price": 18,
+        "imageUrl": "./images/github.jpg"
+      },
+      {
+        "id": "id-5",
+        "name": "PHP",
+        "price": 14,
+        "imageUrl": "./images/php.jpg"
+      },
+
+      {
+        "id": "id-6",
+        "name": "Solo un bug más",
+        "price": 17,
+        "imageUrl": "./images/bug.jpg"
+      },
+      {
+        "id": "id-7",
+        "name": "Compilando...",
+        "price": 22,
+        "imageUrl": "./images/compilando.jpg"
+      },
+      {
+        "id": "id-8",
+        "name": "Si funciona, no lo toques",
+        "price": 24,
+        "imageUrl": "./images/funciona.jpg"
+      }
+    ]
+  }
+}
