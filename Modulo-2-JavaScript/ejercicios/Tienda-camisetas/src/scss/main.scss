@@ -1,0 +1,29 @@
+@use "./core/variables" as *;
+@use "./core/reset" as *;
+@use "./components/header";
+@use "./components/layout";
+@use "./components/shipping";
+@use "./components/cards";
+@use "./components/cart";
+
+body {
+  background-color: $bg-color;
+  color: $text-primary;
+  font-family: $font-body;
+  margin: 0;
+}
+
+h2 {
+  font-family: $font-tech;
+  color: $accent-color;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+h3 {
+  font-family: $font-tech;
+  color: $accent-color;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}

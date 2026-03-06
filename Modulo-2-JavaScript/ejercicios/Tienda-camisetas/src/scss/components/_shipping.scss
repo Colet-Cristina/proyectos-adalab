@@ -1,0 +1,30 @@
+@use "../core/variables" as *;
+
+.shipping {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 0.06rem solid $border-color;
+
+  h3 {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    color: $accent-color;
+  }
+
+  p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.8rem;
+    color: $text-primary;
+  }
+
+  input {
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: 0.06rem solid $border-color;
+    background-color: $card-bg;
+    color: $text-primary;
+    width: 60%;
+  }
+}

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Camisetas</title>
+    <link rel="stylesheet" href="./scss/main.scss" />
+  </head>
+
+  <!-- -------------  ------------- -->
+  <body class="body js_body">
+    <header class="header js_header">
+      <h1 class="title js_title">Console.log("Camisetas")</h1>
+    </header>
+    <!-- -------------  ------------- -->
+    <main class="main js_main">
+      <!-- -------------  ------------- -->
+      <section class="shop js_shop">
+        <h2>Camisetas</h2>
+        <ul class="products js-products"></ul>
+      </section>
+
+      <!-- -------------  ------------- -->
+      <section class="cart js_cart">
+        <h2 class="basket js_basket">Cesta de la compra</h2>
+
+        <table class="table js_table">
+          <thead>
+            <tr class="text-table js_textTable">
+              <td>Producto</td>
+              <td>Precio</td>
+              <td>Unidades</td>
+              <td class="total js_total">Total</td>
+            </tr>
+          </thead>
+          <tbody class="cart-table js_cartTable"></tbody>
+        </table>
+
+        <div class="cart_total js-cartTotal">Total: 0€</div>
+        <!-- -------------  ------------- -->
+        <section class="shipping">
+          <h3>¿Dónde te lo enviamos?</h3>
+          <p>Dirección <input type="text" /></p>
+          <p>Ciudad <input type="text" /></p>
+          <p>Código postal <input type="text" /></p>
+        </section>
+        <!-- -------------  ------------- -->
+      </section>
+      <!-- -------------  ------------- -->
+    </main>
+    <button class="scroll-top js-scrollTop" title="Volver arriba">TOP</button>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
