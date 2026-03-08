@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+body {
+  background-color: #2d3436;
+  color: #f8f9fa;
+}
+
+/* --- HEADER --- */
+.header {
+  border-bottom: solid 0.3rem darkcyan;
+}
+
+.title {
+  line-height: 4rem;
+  padding-inline: 2rem;
+  color: #b39ddb;
+  text-align: center;
+}
+
+/* --- MAIN --- */
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+
+/* --- COMPONENTES --- */
+.input {
+  background-color: #d1d5db;
+  border: none;
+  border-radius: 0.4rem;
+  padding: 0.5rem 0.75rem;
+  outline: none;
+}
+
+.btn {
+  background-color: #12d1bc;
+  color: black;
+  padding: 0.6rem 1.25rem;
+  border-radius: 0.5rem;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.btn-active {
+  background-color: #ff5722;
+  transform: scale(1.1);
+  box-shadow: 0 0.25rem 0.6rem rgba(0, 0, 0, 0.3);
+}
+
+.ipsum-container {
+  margin-top: 2.5rem;
+  max-width: 37rem;
+  padding: 0 0.9375rem;
+  text-align: left;
+}
+.instrucción {
+  font-size: 0.875rem; /* 14px */
+  color: #a0a0a0; /* Un gris claro */
+  font-style: italic;
+  margin-bottom: 1.25rem; /* 20px */
+}
+.btn-clear {
+  background-color: #b39ddb;
+  color: black;
+  padding: 0.6rem 1.25rem;
+  border-radius: 0.5rem;
+
+  cursor: pointer;
+}
+.text {
+  cursor: pointer;
+  margin-bottom: 0.6rem;
+  line-height: 1.5;
+}
+
+/* --- ESCRITORIO --- */
+@media screen and (min-width: 768px) {
+  .main {
+    padding-top: 5rem;
+  }
+}
