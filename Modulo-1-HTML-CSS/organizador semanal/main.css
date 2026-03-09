@@ -1,0 +1,26 @@
+.table-title {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.menu-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.day-header {
+  background-color: #f2f2f2;
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+.meal-item {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+  color: #555;
+}
+
+.menu-row:hover {
+  background-color: #f9f9f9;
+}
