@@ -1,0 +1,16 @@
+body {
+  background-color: #f3f4f5;
+  padding: 40px;
+}
+
+.title {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  color: black;
+}
+
+.text {
+  font-family: Georgia, serif;
+  font-size: 18px;
+  color: #757575;
+}
