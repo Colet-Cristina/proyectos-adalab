@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="title">Flexbox</h1>
+    </header>
+    <main>
+      <!-- ========== Flex y flex direction ==========  -->
+      <p class="text-flex">Flex y flex direction</p>
+      <div class="flex-direction">
+        <div class="item-flex">1</div>
+        <div class="item-flex">2</div>
+        <div class="item-flex">3</div>
+        <div class="item-flex">4</div>
+        <div class="item-flex">5</div>
+        <div class="item-flex">6</div>
+      </div>
+      <!-- ========== ===================== ==========  -->
+      <!-- ========== Flex wrap ==========  -->
+      <p class="text-flex">Flex wrap</p>
+      <div class="flex-wrap">
+        <img src="/img/img.png" alt="Imagen 1" />
+        <img src="/img/img.png" alt="Imagen 2" />
+        <img src="/img/img.png" alt="Imagen 12" />
+      </div>
+      <!-- ========== ===================== ==========  -->
+      <!-- ========== Justify-content y Align-items ==========  -->
+      <p class="text-flex">Justify-content y Align-items</p>
+      <nav class="menu-contenedor">
+        <a href="#">Home</a>
+        <a href="#">Proyectos</a>
+        <a href="#">Equipo</a>
+        <a href="#">Blog</a>
+        <a href="#">Contacto</a>
+      </nav>
+      <!-- ========== ===================== ==========  -->
+      <!-- ========== Propiedad order ==========  -->
+      <p class="text-flex">Propiedad order</p>
+      <div class="order-container">
+        <article class="order-item">
+          <img src="/img/img.png" alt="Noticia 1" />
+          <h3>Noticia 1</h3>
+          <p>Contenido de la primera noticia...</p>
+        </article>
+
+        <article class="order-item">
+          <img src="/img/img.png" alt="Noticia 2" />
+          <h3>Noticia 2</h3>
+          <p>Contenido de la segunda noticia...</p>
+        </article>
+
+        <article class="order-item featured">
+          <img src="/img/img.png" alt="Noticia Destacada" />
+          <h3>¡Noticia Destacada!</h3>
+          <p>
+            Esta noticia es la última en el HTML, pero será la primera
+            visualmente.
+          </p>
+        </article>
+      </div>
+
+      <!-- ========== ===================== ==========  -->
+      <!-- ========== overflow ==========  -->
+      <p class="text-flex">Propiedad overflow</p>
+      <div class="team-card">
+        <div class="card-header">
+          <h3>Miembro del Equipo</h3>
+        </div>
+
+        <div class="card-content">
+          <img src="/img/img.png" alt="Avatar" />
+          <p>
+            Este es un desarrollador experto en <mark>CSS y HTML</mark>. Su
+            labor principal es el diseño de interfaces.
+          </p>
+        </div>
+
+        <div class="card-overflow">
+          <p>
+            He creado este bloque de texto con una extensión intencionadamente
+            larga para poner a prueba los límites de su contenedor. A través de
+            la propiedad overflow, podemos controlar de manera precisa el
+            comportamiento del contenido excedente: ya sea ocultándolo por
+            completo con hidden, permitiendo el desplazamiento con scroll o
+            dejando que el navegador decida con auto. Esta es una demostración
+            práctica de cómo gestionar el espacio en interfaces dinámicas,
+            asegurando que el diseño se mantenga íntegro y funcional
+            independientemente de la cantidad de información que deba albergar.
+          </p>
+        </div>
+      </div>
+      <!-- ========== ===================== ==========  -->
+    </main>
+  </body>
+</html>

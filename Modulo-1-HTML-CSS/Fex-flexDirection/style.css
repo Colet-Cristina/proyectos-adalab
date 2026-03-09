@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2b2b2b;
+  color: #fff;
+}
+
+.header {
+  background-color: rgb(248, 181, 248);
+  border-bottom: solid 5px purple;
+
+  .title {
+    color: black;
+    text-align: center;
+    line-height: 4rem;
+    padding-inline: 2rem;
+  }
+}
+/* ========== ===================== ===================== ========== */
+/* ========== flex direction ========== */
+.text-flex {
+  text-align: center;
+  margin-top: 10px;
+}
+.flex-direction {
+  display: flex;
+  width: 300px;
+  /* height: 300px; */
+  background: #444;
+  border: 3px solid purple;
+  gap: 1px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: row;
+  /* flex-direction: column; */ /* Eje principal pasa a ser Vertical */
+}
+
+.item-flex {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(248, 181, 248);
+  margin: 5px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ========== ===================== ===================== ========== */
+/* ========== Flex wrap ========== */
+.flex-wrap {
+  display: flex;
+
+  /* Permite que los elementos salten a la siguiente línea */
+  flex-wrap: wrap;
+
+  /* Separa las imágenes sin cálculos complicados */
+  gap: 10px;
+
+  max-width: 500px; /* Limitamos el ancho para forzar el salto */
+  margin: 10px auto;
+  border: 2px solid purple;
+  padding: 10px;
+  background: #444;
+}
+
+.flex-wrap img {
+  width: 200px;
+  height: 100px;
+}
+/* ========== ===================== ===================== ========== */
+/* ========== Justify-content y Align-items ========== */
+.menu-contenedor {
+  display: flex;
+  height: 50px;
+  background-color: #505050;
+
+  align-items: center;
+
+  /* Distribución horizontal: espacio entre elementos */
+  justify-content: space-between;
+
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.menu-contenedor a {
+  color: white;
+  text-decoration: none;
+}
+/* ========== ===================== ===================== ========== */
+/* ========== Propiedad order ========== */
+.order-container {
+  display: flex;
+  flex-wrap: wrap; /* La destacada ocupa su propia fila */
+  gap: 20px;
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+.order-item {
+  flex: 1 1 calc(50% - 10px); /* Esto crea las dos columnas */
+  background: #444;
+  padding: 15px;
+  border-radius: 8px;
+}
+.order-item img {
+  max-width: 200px;
+}
+
+.featured {
+  order: -1; /* El valor por defecto es 0. Al poner -1, sube al principio */
+  flex: 1 1 100%; /* Hace que ocupe el 100% del ancho */
+  background: purple;
+}
+.featured img {
+  max-width: 200px; /* Ejemplo: limita la imagen de la destacada si es muy ancha */
+}
+/* ========== ===================== ===================== ========== */
+/* ========== ===================== ===================== ========== */
+
+.team-card {
+  width: 500px;
+  background: #444;
+  border: 3px solid purple;
+  padding: 10px;
+  /* 5. Ajustando: Cambia a border-box para que los 300px sean totales */
+  box-sizing: border-box;
+  margin: 20px auto; /* Centrado horizontal */
+}
+
+.card-content img {
+  width: 100px;
+  height: 100px;
+  display: block; /* 3 y 4. Prueba cambiar a inline para ver qué pasa */
+}
+
+.card-overflow {
+  width: 400px;
+  height: 60px;
+  background-color: rgb(231, 230, 230);
+  color: black;
+  /* 6. Todo en su caja con scroll */
+  overflow: auto;
+}
